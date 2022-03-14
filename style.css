@@ -64,6 +64,26 @@ ul {
 }
 
 
+/* header */
+
+header {
+    background-image: url(img/beach-g78273bab5_1920.jpg);
+    background-size: cover;
+    background-position: 25% 50%;
+    height: 40rem;
+    z-index: -1;
+    opacity: .9;
+    padding-top: 15rem;
+}
+
+#header_h1,
+#header_p1 {
+    background: rgb(149, 200, 251);
+    color: black;
+    opacity: .6;
+}
+
+
 /* main */
 
 
