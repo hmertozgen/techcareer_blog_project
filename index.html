@@ -75,7 +75,26 @@
                     <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    body
+                    <form method="post" action="index.htm">
+                        <div class="form-control">
+                            <label for="name_surname">Adınız Soyadınız</label> <input type="text" id="name_surname" name="name_surname" class="form-control" required autofocus>
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email</label> <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="password">Şifre</label> <input type="password" id="password" name="password" class="form-control" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="re_password">Şifre tekrarı</label> <input type="password" id="re_password" name="re_password" class="form-control" required>
+                        </div>
+                        <div class="mt-3">
+                            <input type="reset" class="btn btn-danger text-uppercase" value="temizle">
+                            <input type="submit" class="btn btn-primary text-uppercase" value="gönder">
+                        </div>
+
+
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kapat</button>
