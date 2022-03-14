@@ -86,6 +86,26 @@ header {
 
 /* main */
 
+.left_side {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.left_side .card-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.left_side .card-text {
+    text-align: justify;
+    text-indent: .8rem;
+}
+
+.left_side img {
+    height: 25rem;
+}
+
 
 /* footer */
 
