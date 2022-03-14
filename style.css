@@ -1,3 +1,5 @@
+/* all codes */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,4 +12,14 @@ html {
 
 body {
     font-family: 'Inconsolata', monospace, 'PT Serif', serif;
+}
+
+
+/* footer */
+
+footer {
+    min-height: 20rem;
+    width: auto;
+    background: black;
+    color: white;
 }
