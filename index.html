@@ -29,6 +29,7 @@
 
     <!--nav start codes -->
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+        <!-- container-fluid -->
         <div class="container">
             <a class="navbar-brand" href="index.html">LOGO</a>
             <button style="display:none44;" class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,14 +43,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Hakkımızda</a>
                     </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Üye</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-user"></i> Üye
+                        </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Üye Ol</a>
+                            <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#register" href="#">Üye Ol</a>
                             <a class="dropdown-item" href="#">Üye Giriş</a>
                         </div>
                     </li>
                 </ul>
+
                 <form class="d-flex my-2 my-lg-0">
                     <input class="form-control me-sm-2" type="text" placeholder="arama ...">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Arama</button>
@@ -57,6 +64,29 @@
             </div>
         </div>
     </nav>
+
+    <!--modal start register  -->
+    <!-- Modal -->
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Üye Ol</h5>
+                    <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    body
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--modal ends register-->
 
     <!--nav ends codes -->
 
