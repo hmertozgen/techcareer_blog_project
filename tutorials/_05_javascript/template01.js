@@ -147,3 +147,25 @@ multiple comment
 // console.log(Math.floor(4.9))//aşağı yuvarlamak
 // console.log(Math.round(4.4))
 
+///////////////////////////////////////////////////
+//Number
+//0124356789ABCDEF
+var hexadecimal=0xFA;
+console.log(hexadecimal)//10 tabanda karşılığı
+
+//binary=2'lik tabanda
+//01
+var binary=0b11;
+console.log(binary)
+
+
+//bilimsel gösterim
+var bilimsel=10e+5;
+console.log(bilimsel)
+
+//Number
+var x1=Number("16");
+
+//toString
+
+
