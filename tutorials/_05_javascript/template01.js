@@ -166,6 +166,19 @@ console.log(bilimsel)
 //Number
 var x1=Number("16");
 
-//toString
+//toString: 10 sayıyı diğer tabanalara çevirme
+var sayi=32;
+console.log(sayi.toString(2));
+console.log(sayi.toString(8))
+console.log(sayi.toString(10))
+console.log(sayi.toString(16))
+
+//NaN
+var isNot=16/"asd";
+console.log(isNot)
+
+//isNaN
+var isSayi=16/16;
+console.log(!isNaN(isSayi))
 
 
