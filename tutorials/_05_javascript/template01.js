@@ -123,10 +123,16 @@ multiple comment
 // console.log(typeof x1);
 
 //undefined
-var x1;
-console.log(x1);
+// var x1;
+// console.log(x1);
 
+//NaN: Not A Number
+// var x1=prompt("Lütfen bir sayı giriniz");
+// var x2=x1**x1;
+// console.log(x2);
 
-//NaN
+//Infinity
+// var x1=5/0; //Sonsuz 
+// console.log(x1)
 
 //ternary
