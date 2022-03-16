@@ -45,13 +45,72 @@ multiple comment
 
 /////////////////////////////////////
 //dynamic type
-var global=66;
-global=11;
-console.log(global)
+// var global=66;
+// global=11;
+// console.log(global)
 
-let  local=44;    //ES6(2015)
-local=15;
-console.log(local)
+// let  local=44;    //ES6(2015)
+// local=15;
+// console.log(local)
 
-const sabit=3.14; //ES6(2015)
-console.log(sabit)
+// const sabit=3.14; //ES6(2015)
+// console.log(sabit)
+///////////////////////////////
+
+//operator
+// Logic Operators   &&=ve ||=veya 
+
+// Mathematics Operators + - * / %
+// var x1=16,x2=4;
+// console.log((x1+x2));
+// console.log((x1-x2));
+// console.log((x1*x2));
+// console.log((2**5));
+// console.log((x1/x2));
+// console.log((x1%x2));
+
+// Comparison Operators
+var  x1=16,x2=5;
+// =
+// == 
+// ===
+// >
+// >=
+// <
+// <= 
+// ?
+// console.log(x1=x2);
+
+// increment –deincrement  
+// var x1=10;
+// console.log(x1++);
+// console.log(x1);
+
+// var x1=10;
+// console.log(x1--);
+// console.log(x1);
+
+// Postfix increment –deincrement
+// var x1=10;
+// console.log(++x1);
+// console.log(x1);
+
+// var x1=10;
+// console.log(--x1);
+// console.log(x1);
+
+
+// 1byte=8 bit (0 ve/veya =1 bit)
+//binary
+
+//prompt
+
+//ternary
+
+
+
+//typeof
+
+//undefined
+
+//NaN
