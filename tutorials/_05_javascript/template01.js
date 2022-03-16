@@ -134,5 +134,16 @@ multiple comment
 //Infinity
 // var x1=5/0; //Sonsuz 
 // console.log(x1)
+////////////////////////////////////////////////////
+// console.log(Math.PI)
+// console.log(Math.E)
+// console.log(Math.sqrt(16)) //karekök
+// console.log(Math.min(5,6,2,5,2525,-555))
+// console.log(Math.max(5,6,2,5,2525,-555))
+// console.log(Math.abs(-16)) //mutlak
+// console.log(Math.pow(2,5)) //üslü sayılar
+// console.log(Math.random()*4+1) //rastgele sayı
+// console.log(Math.ceil(4.1))//yukarı yuvarlamak
+// console.log(Math.floor(4.9))//aşağı yuvarlamak
+// console.log(Math.round(4.4))
 
-//ternary
