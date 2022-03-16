@@ -117,9 +117,15 @@ multiple comment
 // Number() ==> Bu artık sayıdır 
 // String() ==> Bu artık Stringtir
 
+/////////////////////////////////////////////////////
 //typeof
+// var x1=true;
+// console.log(typeof x1);
 
 //undefined
+var x1;
+console.log(x1);
+
 
 //NaN
 
