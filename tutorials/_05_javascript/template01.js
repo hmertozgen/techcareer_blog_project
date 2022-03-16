@@ -207,8 +207,8 @@ let kelime="Html5 Css3 Js Css3";
 //charAt(0) ==> biz sayı veriyoruz bize o sayıya karşılık gelen harfi veriyor.
 //  console.log(kelime.charAt(0));
 
-//boşluk bir karektir
-//substring=string'i parçalamak
+// boşluk bir karektir
+// substring=string'i parçalamak
 //  console.log(kelime.substring(6))
 //  console.log(kelime.substring(0,5)) //0<=x<5
 
