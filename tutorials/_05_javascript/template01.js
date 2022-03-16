@@ -69,8 +69,12 @@ multiple comment
 // console.log((x1%x2));
 
 // Comparison Operators
+<<<<<<< HEAD
 var x1 = 16,
   x2 = 5;
+=======
+// var  x1=16,x2=5;
+>>>>>>> ea21402d21634fb25c6ea85c8d313e19498282d1
 // =
 // ==
 // ===
@@ -99,15 +103,37 @@ var x1 = 16,
 // console.log(--x1);
 // console.log(x1);
 
+<<<<<<< HEAD
+=======
+/////////////////////////////////////////////////////
+>>>>>>> ea21402d21634fb25c6ea85c8d313e19498282d1
 // 1byte=8 bit (0 ve/veya =1 bit)
 //binary
 
-//prompt
+// console.log(10+20)
+// console.log("10"+"20")
 
-//ternary
+<<<<<<< HEAD
+=======
+//prompt:string gelir
+//cast
+// var x1= Number(prompt("Lütfen 1.sayıyı giriniz"));
+// var x2= Number(prompt("Lütfen 2.sayıyı giriniz"));
+// var x3=x1+x2;
+// console.log(x3);
 
+//cast
+// Number() ==> Bu artık sayıdır 
+// String() ==> Bu artık Stringtir
+
+>>>>>>> ea21402d21634fb25c6ea85c8d313e19498282d1
 //typeof
 
 //undefined
 
 //NaN
+<<<<<<< HEAD
+=======
+
+//ternary
+>>>>>>> ea21402d21634fb25c6ea85c8d313e19498282d1
