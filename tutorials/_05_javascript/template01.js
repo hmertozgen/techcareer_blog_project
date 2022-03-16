@@ -1,4 +1,3 @@
-
 //single comment
 /* 
 multiple comment
@@ -58,7 +57,7 @@ multiple comment
 ///////////////////////////////
 
 //operator
-// Logic Operators   &&=ve ||=veya 
+// Logic Operators   &&=ve ||=veya
 
 // Mathematics Operators + - * / %
 // var x1=16,x2=4;
@@ -70,18 +69,19 @@ multiple comment
 // console.log((x1%x2));
 
 // Comparison Operators
-var  x1=16,x2=5;
+var x1 = 16,
+  x2 = 5;
 // =
-// == 
+// ==
 // ===
 // >
 // >=
 // <
-// <= 
+// <=
 // ?
 // console.log(x1=x2);
 
-// increment –deincrement  
+// increment –deincrement
 // var x1=10;
 // console.log(x1++);
 // console.log(x1);
@@ -99,15 +99,12 @@ var  x1=16,x2=5;
 // console.log(--x1);
 // console.log(x1);
 
-
 // 1byte=8 bit (0 ve/veya =1 bit)
 //binary
 
 //prompt
 
 //ternary
-
-
 
 //typeof
 
