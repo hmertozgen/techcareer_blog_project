@@ -126,10 +126,19 @@ var x1 = 16,
 // Number() ==> Bu artık sayıdır 
 // String() ==> Bu artık Stringtir
 
+<<<<<<< HEAD
 >>>>>>> ea21402d21634fb25c6ea85c8d313e19498282d1
+=======
+/////////////////////////////////////////////////////
+>>>>>>> c5c06564b74ae8713438b203ee4d4687e0f15120
 //typeof
+// var x1=true;
+// console.log(typeof x1);
 
 //undefined
+var x1;
+console.log(x1);
+
 
 //NaN
 <<<<<<< HEAD
