@@ -150,35 +150,85 @@ multiple comment
 ///////////////////////////////////////////////////
 //Number
 //0124356789ABCDEF
-var hexadecimal=0xFA;
-console.log(hexadecimal)//10 tabanda karşılığı
+// var hexadecimal=0xFA;
+// console.log(hexadecimal)//10 tabanda karşılığı
 
-//binary=2'lik tabanda
-//01
-var binary=0b11;
-console.log(binary)
+// //binary=2'lik tabanda
+// //01
+// var binary=0b11;
+// console.log(binary)
 
 
-//bilimsel gösterim
-var bilimsel=10e+5;
-console.log(bilimsel)
+// //bilimsel gösterim
+// var bilimsel=10e+5;
+// console.log(bilimsel)
 
-//Number
-var x1=Number("16");
+// //Number
+// var x1=Number("16");
 
-//toString: 10 sayıyı diğer tabanalara çevirme
-var sayi=32;
-console.log(sayi.toString(2));
-console.log(sayi.toString(8))
-console.log(sayi.toString(10))
-console.log(sayi.toString(16))
+// //toString: 10 sayıyı diğer tabanalara çevirme
+// var sayi=32;
+// console.log(sayi.toString(2));
+// console.log(sayi.toString(8))
+// console.log(sayi.toString(10))
+// console.log(sayi.toString(16))
 
-//NaN
-var isNot=16/"asd";
-console.log(isNot)
+// //NaN
+// var isNot=16/"asd";
+// console.log(isNot);
 
-//isNaN
-var isSayi=16/16;
-console.log(!isNaN(isSayi))
+// var sonuc=true;
+// console.log(!sonuc)
 
+// //isNaN
+// var isSayi=16/16;
+// console.log(!isNaN(isSayi))
+
+
+///////////////////////////////////////////////////
+//String 
+let kelime="Html5 Css3 Js Css3";
+
+//kaç tane harf var ?
+// console.log(kelime.length)
+
+//trim: başındaki veya sonundaki boşlukları alıyor. 
+// console.log(kelime.trim().length)
+
+//bütün karakterleri küçük yap
+// kelime=kelime.toLowerCase()
+// console.log(kelime);
+ //console.log(kelime.toLowerCase())
+
+ //native code: parantez yazmaksak
+ //bütün karakterleri büyük yap
+// console.log(kelime.toUpperCase())
+
+//charAt(0) ==> biz sayı veriyoruz bize o sayıya karşılık gelen harfi veriyor.
+//  console.log(kelime.charAt(0));
+
+//boşluk bir karektir
+//substring=string'i parçalamak
+//  console.log(kelime.substring(6))
+//  console.log(kelime.substring(0,5)) //0<=x<5
+
+// concat: sonuna ekleme yapar.
+//  console.log(kelime.concat("sonradan eklendim"));
+
+
+//ile başlıyorsa ==> true
+// console.log(kelime.startsWith('H'))
+
+//ile bitiyorsa ==> true
+// console.log(kelime.endsWith('l5 '))
+
+// console.log(kelime.indexOf('Css3'))
+// console.log(kelime.search('Css3'))
+// console.log(kelime.lastIndexOf('Css3'))
+
+// console.log(kelime.split(' '))
+// console.log(kelime.join())
+// console.log(kelime.replace())
+// console.log(kelime.slice())
+// console.log(kelime.repeat())
 
