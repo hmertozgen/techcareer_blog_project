@@ -259,6 +259,17 @@ let kelime = 'Html5 Css3 Js Css3'
 //  //socket.close()
 // }
 
+try {
+  merhabalar
+  console.log("2.alan")
+  throw "referans yoktur";
+} catch (error) {
+  alert(error.message)//istisna mesajıyla bilgilerndir
+  alert(error.name) //istisna türü
+  
+
+}
+
 ///////////////////////////////////////////////////////////
 // //1.function :parametresiz
 // function deneme1(){
