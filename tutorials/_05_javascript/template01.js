@@ -243,20 +243,35 @@ let kelime="Html5 Css3 Js Css3";
 //validation
 //exception handling
 
-try {
-    //kodlar gövdesi
-    let sayi=3/0;
-    console.log(sayi)
-   
-} catch (error) {
-    //hata olursa burası devreye girsin
-    alert(error.message);
-    alert(error.name);
-} finally{
-console.log("Burası kesin çalışacak");
- //db.close()
- //socket.close()
-}
+
+//istisna fırtaltırız
+// throw "sayıyı sıfıra bölemezsin";
+
+// try {
+//     //kodlar gövdesi
+//     let sayi=0/3;
+//     console.log(sayi)
+
+// } catch (error) {
+//     //hata olursa burası devreye girsin
+//     console.log(error.message);
+//     console.log(error.name);
+//     //bilerek istisna gelmesini istersek
+
+// } finally{
+// console.log("Burası kesin çalışacak");
+//  //db.close()
+//  //socket.close()
+// }
+
+
+///////////////////////////////////////////////////////////
+
+
+
+
+
+
 
 
 
