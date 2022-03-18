@@ -266,7 +266,7 @@ let kelime="Html5 Css3 Js Css3";
 
 
 ///////////////////////////////////////////////////////////
-// //1.function
+// //1.function :parametresiz
 // function deneme1(){
 //     let number1,number2;
 //     number1= Math.round(Number(prompt("1.sayı"))) ;
@@ -278,7 +278,8 @@ let kelime="Html5 Css3 Js Css3";
 // }
 // deneme1();
 
-// //2.function
+
+// //2.function:parametreli
 // function deneme2(number1,number2){ //parametre
 //     console.log((number1 + number2));
 //     console.log((number1 - number2));
@@ -288,7 +289,7 @@ let kelime="Html5 Css3 Js Css3";
 // deneme2(10,2);//argüman
 
 
-//3.function
+//3.function :return
 //eğer bir değişkende kullanmak istersek return kullanıyoruz.
 // function deneme3(number1){ //parametre
 // let result=number1**number1;
@@ -296,6 +297,18 @@ let kelime="Html5 Css3 Js Css3";
 // }
 // let deger=  deneme3(4);
 // console.log(deger)
+
+
+//4.function
+//anonymous function: isimsiz function
+// function (){
+//         return "Merhabalar";
+//     }
+
+
+//5.function
+//arrow function:
+//  ()=>{}
 
 
 
