@@ -266,6 +266,37 @@ let kelime="Html5 Css3 Js Css3";
 
 
 ///////////////////////////////////////////////////////////
+// //1.function
+// function deneme1(){
+//     let number1,number2;
+//     number1= Math.round(Number(prompt("1.sayı"))) ;
+//     number2= Math.round(Number(prompt("2.sayı")))  ;
+//     console.log((number1 + number2));
+//     console.log((number1 - number2));
+//     console.log((number1 / number2));
+//     console.log((number1 * number2));
+// }
+// deneme1();
+
+// //2.function
+// function deneme2(number1,number2){ //parametre
+//     console.log((number1 + number2));
+//     console.log((number1 - number2));
+//     console.log((number1 / number2));
+//     console.log((number1 * number2));
+// }
+// deneme2(10,2);//argüman
+
+
+//3.function
+//eğer bir değişkende kullanmak istersek return kullanıyoruz.
+function deneme3(number1){ //parametre
+let result=number1**number1;
+return result;
+}
+let deger=  deneme3(4);
+console.log(deger)
+
 
 
 
