@@ -359,9 +359,9 @@ let result3=()=>{
 // let ter= (sayi===1) ? "sayı 1 eşittir"  :"sayı 1 eşit değildir" ;
 // console.log(ter);
 
-
-let sayi= Number(prompt("Lütfen bir sayı giriniz")) ;
-
+// ()()
+let result=  ()=>{
+    let sayi= Number(prompt("Lütfen bir sayı giriniz")) ;
 //if elseif else
 if(sayi===1){
     console.log("sayı 1 eşittir");
@@ -386,6 +386,72 @@ if(sayi===1){
 }else{
     console.log("sayı 1<=x<=10 dışındadır");
 }
+}
+// result();
+//////////////////////////////////////////////////////////////////////////
+//kullanıcıdan bir sayı alacağım bu sayı negatif mi pozitif mi ?  arrow function
+let isNegative = ()=>{
+    let number=Number(prompt("Lütfen bir sayı giriniz"));
+    let result= (number<0) ?"negatif" :"pozitif";
+    console.log(result)
+}
+//isNegative();
+/////////////////////////////////
+//kullanıcının girdiği sayı tek mi çift mi ? bulan anonymous function yazalım?
+
+let even = function(){
+    let number=Number(prompt("Lütfen bir sayı giriniz"));
+    if(number%2==0){
+        console.log("sayı çifttir")
+    }else{
+        console.log("sayı tektir")
+    }
+   
+}
+//even();
+
+/////////////////////////////////////////////////////////////
+function result5(){
+    let sayi= Number(prompt("Lütfen bir sayı giriniz")) ;
+    //Switch-case
+switch (sayi) {
+    case 1:
+        console.log("sayı 1 eşittir");
+        break;
+   case 2:
+        console.log("sayı 2 eşittir");
+        break;
+     case 3:
+        console.log("sayı 3 eşittir");
+        break;
+     case 4:
+        console.log("sayı 4 eşittir");
+        break;
+    case 5:
+        console.log("sayı 5 eşittir");
+        break;
+    case 6:
+        console.log("sayı 6 eşittir");
+        break;
+    case 7:
+        console.log("sayı 7 eşittir");
+        break;
+    case 8:
+        console.log("sayı 8 eşittir");
+        break;
+    case 9:
+        console.log("sayı 9 eşittir");
+        break;
+    case 10:
+        console.log("sayı 10 eşittir");
+        break;
+default:
+    console.log("sayı 1<=x<=10 dışındadır");
+    break;
+}
+}
+ result5();
+
 
 
 
