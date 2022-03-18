@@ -315,7 +315,7 @@ let kelime="Html5 Css3 Js Css3";
 //Immediate function : Hemen Çalışsın
 // ()()
 
-//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
 // //1.evre
 function deneme1(){
    console.log("Merhabalar Normal Function") ;
@@ -341,6 +341,51 @@ let result3=()=>{
 // 4.evre: Immediate function: hemen kullanmak
 //  ===> ()()
 (function deneme(){console.log("Merhabalar Immediate function") ;})()
+
+
+
+//////////////////////////////////////////////////////////////////////
+//conditional (Şart)
+// let sayi="1";
+// console.log(typeof sayi)
+
+// if(sayi===1){
+//     console.log("sayı 1 eşittir");
+// }else{
+//     console.log("sayı 1 eşit değildir");
+// }
+
+// //Ternary Function ===> () ?  :  ;
+// let ter= (sayi===1) ? "sayı 1 eşittir"  :"sayı 1 eşit değildir" ;
+// console.log(ter);
+
+
+let sayi= Number(prompt("Lütfen bir sayı giriniz")) ;
+
+//if elseif else
+if(sayi===1){
+    console.log("sayı 1 eşittir");
+}else if(sayi===2){
+    console.log("sayı 2 eşittir");
+}else if(sayi===3){
+    console.log("sayı 3 eşittir");
+}else if(sayi===4){
+    console.log("sayı 4 eşittir");
+}else if(sayi===5){
+    console.log("sayı 5 eşittir");
+}else if(sayi==6){
+    console.log("sayı 6 eşittir");
+}else if(sayi===7){
+    console.log("sayı 7 eşittir");
+}else if(sayi===8){
+    console.log("sayı 8 eşittir");
+}else if(sayi===9){
+    console.log("sayı 9 eşittir");
+}else if(sayi===10){
+    console.log("sayı 10 eşittir");
+}else{
+    console.log("sayı 1<=x<=10 dışındadır");
+}
 
 
 
