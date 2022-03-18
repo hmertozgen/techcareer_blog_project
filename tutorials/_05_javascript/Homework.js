@@ -22,8 +22,8 @@
 //JS split() nedir ? ne için kullınıyoruz. ?
 //////////////////////////////////////////////////////////
 //ÖDEV
-//S-1) kullanıcını girdiği sayıya göre haftanın günleri gösteren algoritma ?
-//S-2) Vize Final Ödev:
+//S-1) kullanıcını girdiği sayıya göre haftanın günleri gösteren algoritma ? (switch-case)
+//S-2) Vize Final Ödev: arrow function
 //vize%40+final%60
 //1-59   FF
 //55-60  CC
