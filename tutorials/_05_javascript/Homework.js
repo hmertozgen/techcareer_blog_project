@@ -30,6 +30,7 @@
 //61-80  BB
 //81-100 AA
 
-//for ile while döngüsü arasındaki fark nedir ?
+//s3-) for ile while döngüsü arasındaki fark nedir ?
+//S4-) 1-99 sayılar dahil 1<=<x<=99 bu sayılardan içerde kaç tane tek sayı kaç tane çift sayı vardır ?
 
 

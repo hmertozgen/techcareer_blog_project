@@ -456,18 +456,18 @@ let kelime = 'Html5 Css3 Js Css3'
 //1-10 arasında sayılar toplamı olsun
 //bu sayılar arasındaki 4 sayısını dahil etmeyin
 
-let toplam = () => {
-  let sum = 0 //başlangıç değer
+// let toplam = () => {
+//   let sum = 0 //başlangıç değer
 
-  for (let i = 1; i <= 100; i++) {
-    if (i === 4) {
-      continue //o değerli es geç
-    }
-    if (i > 10) break //döngüyü kırmak
-    sum = sum + i
-  }
-  console.log('Toplamları: ' + sum)
-}
+//   for (let i = 1; i <= 100; i++) {
+//     if (i === 4) {
+//       continue //o değerli es geç
+//     }
+//     if (i > 10) break //döngüyü kırmak
+//     sum = sum + i
+//   }
+//   console.log('Toplamları: ' + sum)
+// }
 //toplam();
 //55
 
@@ -482,9 +482,11 @@ let toplam = () => {
 
 /////
 //do-while Döngüsü
-let i = 1
-do {
-  //ister şart sağlansın ister sağlanmasın kesinlikle 1 kere çalışacak
-  console.log(i + ' kere çalıştı')
-  i++;
-} while (i < 3);
+// let i = 1
+// do {
+//   //ister şart sağlansın ister sağlanmasın kesinlikle 1 kere çalışacak
+//   console.log(i + ' kere çalıştı')
+//   i++;
+// } while (i < 3);
+/////////////////////////////////////////////////////////////////////
+
