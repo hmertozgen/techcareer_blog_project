@@ -304,11 +304,46 @@ let kelime="Html5 Css3 Js Css3";
 // function (){
 //         return "Merhabalar";
 //     }
-
+ 
 
 //5.function
 //arrow function:
 //  ()=>{}
+
+
+//6.function:
+//Immediate function : Hemen Çalışsın
+// ()()
+
+//////////////////////////////////////
+// //1.evre
+function deneme1(){
+   console.log("Merhabalar Normal Function") ;
+}
+deneme1();
+
+// //2.evre
+// //anonymous function direk kullanmak için ===> function(){}
+let result2=  function (){
+    console.log("Merhabalar anonymous function") ;
+ }
+ result2();
+
+
+//  //3.evre: arrow function
+//arrow function, ===>  ()=>{}
+let result3=()=>{
+    console.log("Merhabalar arrow function") ;
+ }
+ result3();
+
+
+// 4.evre: Immediate function: hemen kullanmak
+//  ===> ()()
+(function deneme(){console.log("Merhabalar Immediate function") ;})()
+
+
+
 
 
 
