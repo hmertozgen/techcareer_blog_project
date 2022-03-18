@@ -232,3 +232,31 @@ let kelime="Html5 Css3 Js Css3";
 // console.log(kelime.slice())
 // console.log(kelime.repeat())
 
+///////////////////////////////////////////////////////
+//escape characters
+//back slash \
+// console.log("\"Deneme")
+// console.log('Deneme')
+
+//////////////////////////////////////////////////////
+
+//validation
+//exception handling
+
+try {
+    //kodlar gövdesi
+    let sayi=3/0;
+    console.log(sayi)
+   
+} catch (error) {
+    //hata olursa burası devreye girsin
+    alert(error.message);
+    alert(error.name);
+} finally{
+console.log("Burası kesin çalışacak");
+ //db.close()
+ //socket.close()
+}
+
+
+

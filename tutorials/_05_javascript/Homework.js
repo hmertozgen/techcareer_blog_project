@@ -19,4 +19,4 @@
 
 //JS String metotlara çalışmak
 
-//JS split() nedir ? ne için kullşanıyoruz. ?
+//JS split() nedir ? ne için kullınıyoruz. ?
