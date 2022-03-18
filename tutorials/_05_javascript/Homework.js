@@ -30,4 +30,6 @@
 //61-80  BB
 //81-100 AA
 
+//for ile while döngüsü arasındaki fark nedir ?
+
 
