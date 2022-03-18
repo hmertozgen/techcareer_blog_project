@@ -290,12 +290,12 @@ let kelime="Html5 Css3 Js Css3";
 
 //3.function
 //eğer bir değişkende kullanmak istersek return kullanıyoruz.
-function deneme3(number1){ //parametre
-let result=number1**number1;
-return result;
-}
-let deger=  deneme3(4);
-console.log(deger)
+// function deneme3(number1){ //parametre
+// let result=number1**number1;
+// return result;
+// }
+// let deger=  deneme3(4);
+// console.log(deger)
 
 
 
