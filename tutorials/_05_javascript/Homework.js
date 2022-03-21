@@ -33,4 +33,7 @@
 //s3-) for ile while döngüsü arasındaki fark nedir ?
 //S4-) 1-99 sayılar dahil 1<=<x<=99 bu sayılardan içerde kaç tane tek sayı kaç tane çift sayı vardır ?
 
+//S.O.L.I.D
+//Design pattern  
+
 

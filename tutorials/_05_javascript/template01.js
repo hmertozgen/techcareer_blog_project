@@ -1,6 +1,6 @@
-//single comment
+//single line comment
 /* 
-multiple comment
+multiple line comment
 */
 //alert("Merhabalar external js");
 ////////////////////////////////////////////
@@ -38,8 +38,9 @@ multiple comment
 // var isLogin=true;
 // console.log(isLogin)
 
-//Number  ==> sayılar
-//string  ==> kelimeler
+//Cast
+//Number  ()==> sayılar
+//String()  ==> kelimeler
 //boolean ==> true false
 
 /////////////////////////////////////
@@ -70,9 +71,9 @@ multiple comment
 
 // Comparison Operators
 // var  x1=16,x2=5;
-// =
-// ==
-// ===
+// = (atama)
+// == (eşittir mi)
+// === (eşitti mi ? types ?)
 // >
 // >=
 // <
@@ -117,7 +118,7 @@ multiple comment
 // String() ==> Bu artık Stringtir
 
 /////////////////////////////////////////////////////
-//typeof
+//typeof (türünün ne olduğunu string ? number ? boolean mı)
 // var x1=true;
 // console.log(typeof x1);
 
@@ -126,9 +127,12 @@ multiple comment
 // console.log(x1);
 
 //NaN: Not A Number
+// 32/"asd"
 // var x1=prompt("Lütfen bir sayı giriniz");
 // var x2=x1**x1;
 // console.log(x2);
+
+//isNaN()
 
 //Infinity
 // var x1=5/0; //Sonsuz
@@ -148,6 +152,8 @@ multiple comment
 
 ///////////////////////////////////////////////////
 //Number
+//decimal
+//binary
 //0124356789ABCDEF
 // var hexadecimal=0xFA;
 // console.log(hexadecimal)//10 tabanda karşılığı
@@ -158,13 +164,13 @@ multiple comment
 // console.log(binary)
 
 // //bilimsel gösterim
-// var bilimsel=10e+5;
+// var bilimsel=3452e+5; 345200000
 // console.log(bilimsel)
 
 // //Number
 // var x1=Number("16");
 
-// //toString: 10 sayıyı diğer tabanalara çevirme
+// //toString(): 10 sayıyı diğer tabanalara çevirme
 // var sayi=32;
 // console.log(sayi.toString(2));
 // console.log(sayi.toString(8))
@@ -184,9 +190,9 @@ multiple comment
 
 ///////////////////////////////////////////////////
 //String
-let kelime = 'Html5 Css3 Js Css3'
+let kelime = 'Html5 Css3 Js Css3 '
 
-//kaç tane harf var ?
+// kaç tane harf var ?
 // console.log(kelime.length)
 
 //trim: başındaki veya sonundaki boşlukları alıyor.
@@ -231,6 +237,7 @@ let kelime = 'Html5 Css3 Js Css3'
 ///////////////////////////////////////////////////////
 //escape characters
 //back slash \
+//special symbol
 // console.log("\"Deneme")
 // console.log('Deneme')
 
@@ -244,6 +251,7 @@ let kelime = 'Html5 Css3 Js Css3'
 
 // try {
 //     //kodlar gövdesi
+//     denem44
 //     let sayi=0/3;
 //     console.log(sayi)
 
@@ -259,16 +267,15 @@ let kelime = 'Html5 Css3 Js Css3'
 //  //socket.close()
 // }
 
-try {
-  merhabalar
-  console.log("2.alan")
-  throw "referans yoktur";
-} catch (error) {
-  alert(error.message)//istisna mesajıyla bilgilerndir
-  alert(error.name) //istisna türü
-  
+// try {
+//   merhabalar
+//   console.log("2.alan")
+//   throw "referans yoktur";
+// } catch (error) {
+//   alert(error.message)//istisna mesajıyla bilgilerndir
+//   alert(error.name) //istisna türü
 
-}
+// }
 
 ///////////////////////////////////////////////////////////
 // //1.function :parametresiz
@@ -312,7 +319,7 @@ try {
 //  ()=>{}
 
 //6.function:
-//Immediate function : Hemen Çalışsın
+//Immediate function : Hemen Çalışsın yani function yazmadan çağırmak istiyorsak
 // ()()
 
 ////////////////////////////////////////////////////////////////////////
@@ -353,7 +360,7 @@ try {
 //     console.log("sayı 1 eşit değildir");
 // }
 
-// //Ternary Function ===> () ?  :  ;
+// //Ternary  ===> () ?  :  ;
 // let ter= (sayi===1) ? "sayı 1 eşittir"  :"sayı 1 eşit değildir" ;
 // console.log(ter);
 
@@ -452,7 +459,7 @@ try {
 ////////////////////////////////////////////////////////////////////////
 //Loop
 //başlangıç:  i=1;
-//bitiş    :  i<=10
+//bitiş(şart)    :  i<=10
 
 //i++      :artırma
 //i=i+1    :artırma
@@ -499,5 +506,13 @@ try {
 //   console.log(i + ' kere çalıştı')
 //   i++;
 // } while (i < 3);
-/////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//1-) Kullanıcı tarafından alınan bir sayı  
+//1<=x<=kullanıcıdı rastgele sayı oluştursun(tam sayı) Math ?
+//examples: 2 5 2 3 1
+//Toplamları
+//ortalaması
+//en küçük sayı bulsun
+//arrow function ?
+//S.O.L.I.D
 
