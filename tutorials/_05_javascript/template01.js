@@ -518,13 +518,15 @@ let kelime = 'Html5 Css3 Js Css3 '
 
 ////////////////////////////////////////////////////////////////////////
 //Diziler
-let dizi = [2,3,5,69,-1]
+let dizi = ["html5","css3","js"]
 
-//push() ==> sona bir eleman eklemek
-//unshift() ==> başa bir eleman eklemek
-//pop() ==> sondan 1 eleman çıkar
-//shift() ==> baştan 1 eleman çıkar
-//Delete ==> istediğim indis numarasındaki dizi elemanını silmek
+//dizi.push() ==> sona bir eleman eklemek
+//dizi.unshift() ==> başa bir eleman eklemek
+//dizi.pop() ==> sondan 1 eleman çıkar
+//dizi.shift() ==> baştan 1 eleman çıkar
+//delete dizi[0] ==> istediğim indis numarasındaki dizi elemanını silmek
+//dizi.sort() ==> Küçükten büyüğe doğru sıralamak
+//dizi.reverse() ==> büyükten Küçüğe doğru sıralamak
 
 // console.log(dizi)
 // console.log(dizi[8])
@@ -558,13 +560,13 @@ let dizi = [2,3,5,69,-1]
 //+++++++
 //EKLEME
 //push() ==> sona bir eleman eklemek
-dizi.push('sona eklendi lifo')
+// dizi.push('sona eklendi lifo')
 // for (temp of dizi) {
 //   console.log(temp)
 // }
 
 //unshift() ==> başa bir eleman eklemek
-dizi.unshift('Başa eklendi')
+// dizi.unshift('Başa eklendi')
 // for (temp of dizi) {
 //     console.log(temp)
 //   }
@@ -573,33 +575,80 @@ dizi.unshift('Başa eklendi')
 //-------
 //ÇIKARMA
 //pop() ==> sondan 1 eleman çıkar
-dizi.pop()
+// dizi.pop()
 // for (temp of dizi) {
 //   console.log(temp)
 // }
 
 //shift() ==> baştan 1 eleman çıkar
-dizi.shift()
+// dizi.shift()
 // for (temp of dizi) {
 //   console.log(temp)
 // }
 
-
-
-
 //Delete ==> istediğim indis numarasındaki dizi elemanını silmek
-console.log(dizi)
+// console.log(dizi)
 // delete dizi[2];
 // console.log("+++++++++++++++++++")
 // for(temp of dizi ){
 // console.log(temp)
 // }
 
-//sort() ==> küçükten büyüğe doğru sıralama yapar
-console.log(dizi.sort())
+// //sort() ==> küçükten büyüğe doğru sıralama yapar
+// console.log(dizi.sort())
 
-//reverse() ==> büyükten küçüğe doğru sıralama yapar
-console.log(dizi.reverse())
+// //reverse() ==> büyükten küçüğe doğru sıralama yapar
+// console.log(dizi.reverse())
+// console.log(dizi)
+
+///////////////////
+//Dizi fonkisyonlarına devam edilecek
+//join() ==> dizideki her bir elemana eklemek için 
+// dizi.join("-logo")
+// console.log(dizi)
+//splice()
+
+
+//+++++++++++++++++++++++++++++++++++++++++++
+
+// Örnek: 1.dereceden 2 bilinmeyenli denklem
+// Kullanıcıdan aldığımız 2 değişkeni hesaplatarıalım?
+// y=3x+5k; x ve k kullanıcıdan alınan sayılara göre hesaplama yapılactır (Arrow function)
+
+let equationWithUnKnow=()=>{
+    let number1,number2,result;
+    number1=Number(prompt("1.sayı"));
+    number2=Number(prompt("2.sayı"));
+    result=3*number1+5*number2;
+    console.log(result)
+}
+//equationWithUnKnow();
+
+
+//Örnek: 2 Dereceyi fahrenhaya çeviren function (Anonymous function)
+//Kullanıcıdan alınan dereceyi Fahrenhata çeviren function 
+//Formül: (dereceSayi * 9 / 5) + 32;
+let toFahrenhayt=function(){
+    let degree,result;
+    degree=Number(prompt("Lütfen dereceyi giriniz"));
+    result=(degree*9/5)+32;
+    console.log(result)
+}
+// toFahrenhayt();
+
+//Örnek6:  1'den 10'a kadar sayıların toplamı ancak 5'e bölünebilen sayılar hariç
+// continue
+let totalfiveExcluded=()=>{
+    let sum=0;//başlangıç bir değer: sıfır etkisiz toplama
+    for (let i = 1; i <= 10; i=i+1) {
+        if(i%5===0)
+            continue;
+       sum+=i;
+    }
+    console.log("toplam: "+sum)
+}
+
+totalfiveExcluded();
 
 
 //Random

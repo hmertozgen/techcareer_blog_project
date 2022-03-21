@@ -41,6 +41,15 @@
 // Örnek: 1.dereceden 2 bilinmeyenli denklem
 // Kullanıcıdan aldığımız 2 değişkeni hesaplatarıalım?
 // y=3x+5k; x ve k kullanıcıdan alınan sayılara göre hesaplama yapılactır (Arrow function)
+let equationWithUnKnow=()=>{
+    console.log("deneme")
+    let number1,number2,result;
+    number1=Number(prompt("1.sayı"));
+    number2=Number(prompt("2.sayı"));
+    result=3*number1+5*number2;
+    console.log(result)
+}
+//equationWithUnKnow();
 
 //Örnek: 2 Dereceyi fahrenhaya çeviren function (Anonymous function)
 //Kullanıcıdan alınan dereceyi Fahrenhata çeviren function (Arrow Function)
@@ -49,18 +58,22 @@
 //Örnek:3  Dört işlem
 //4+3*2(3:3-1*6+9:1+(3:3))
 
-//Örnek:4 password-repassword function (Normal Function)
-
+//Örnek:4 password-repassword function (Normal Function) ternary
 
 //Örnek:5 Kullanıcının Girdiği Sayının Negatif mi, Pozitif mi Olduğunu Bulan function(anonymous)
 
 //Örnek6:  1'den 10'a kadar sayıların toplamı ancak 5'e bölünebilen sayılar hariç
+// continue
 
 //Örnek7:
-// Kullanıcıdan alınan sayıya göre
-// 1-)Toplamları
-// 2-)Tek sayı toplamları
-// 3-)çift sayı toplamları
+// Kullanıcıdan alınan sayıya göre random sayılar oluştursun
+// 0-) ilk ve son sayının toplamı ?
+// 1-) Toplamları
+// 2-) Ortalaması
+// 3-) Tek sayı toplamları
+// 4-) Kaç tane Tek sayı 
+// 5-) çift sayı toplamları
+// 6-) çift tane Tek sayı 
 
 //Örnek8 :Kullanıcının Girdiği Sayının Faktöriyel hesaplama
 
