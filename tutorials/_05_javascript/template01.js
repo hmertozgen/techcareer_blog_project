@@ -507,7 +507,7 @@ let kelime = 'Html5 Css3 Js Css3 '
 //   i++;
 // } while (i < 3);
 //////////////////////////////////////////////////////////////////////////////
-//1-) Kullanıcı tarafından alınan bir sayı  
+//1-) Kullanıcı tarafından alınan bir sayı
 //1<=x<=kullanıcıdı rastgele sayı oluştursun(tam sayı) Math ?
 //examples: 2 5 2 3 1
 //Toplamları
@@ -518,34 +518,64 @@ let kelime = 'Html5 Css3 Js Css3 '
 
 ////////////////////////////////////////////////////////////////////////
 //Diziler
-let dizi=["html","css","js","Javascript"];
-console.log(dizi);
-console.log(dizi[8]);
-console.log(dizi[dizi.length-1]);
-console.log("+++++++++++++++++++++++++++++++")
+let dizi = ['html', 'css', 'js', 'Javascript']
 
-//iterative for
-for (let i=0; i<dizi.length; i+=1){
-    console.log((i+1)+" "+dizi[i])
+//push() ==> sona bir eleman eklemek
+
+// console.log(dizi)
+// console.log(dizi[8])
+// console.log(dizi[dizi.length - 1])
+// console.log('+++++++++++++++++++++++++++++++')
+
+// //iterative for
+// for (let i = 0; i < dizi.length; i += 1) {
+//   console.log(i + 1 + ' ' + dizi[i])
+// }
+
+// console.log('+++++++++++++++++++++++++++++++')
+// console.log('for in')
+
+// //for in
+// for (let temp in dizi) {
+//   console.log(temp + ' ==> ' + dizi[temp])
+// }
+
+// console.log('+++++++++++++++++++++++++++++++')
+// console.log('for of')
+
+// //for of
+// for (temp of dizi) {
+//   console.log(temp)
+// }
+
+///////
+//dizi fonksiyonları
+
+//EKLEME
+//push() ==> sona bir eleman eklemek
+dizi.push('sona eklendi lifo')
+// for (temp of dizi) {
+//   console.log(temp)
+// }
+
+//unshift() ==> başa bir eleman eklemek
+dizi.unshift('Başa eklendi')
+// for (temp of dizi) {
+//     console.log(temp)
+//   }
+
+//ÇIKARMA
+//pop() ==> sondan 1 eleman çıkar
+dizi.pop()
+// for (temp of dizi) {
+//   console.log(temp)
+// }
+
+//shift() ==> baştan 1 eleman çıkar
+dizi.shift()
+for (temp of dizi) {
+  console.log(temp)
 }
-
-console.log("+++++++++++++++++++++++++++++++")
-console.log("for in");
-
-//for in 
-for( temp  in dizi   ){
-console.log(temp+" ==> "+dizi[temp])
-}
-
-console.log("+++++++++++++++++++++++++++++++")
-console.log("for of");
-
-//for of
-for( temp  of dizi   ){
-    console.log(temp)
-    }
-
-
 
 //Random
 // let rnd=()=>{
@@ -554,6 +584,3 @@ for( temp  of dizi   ){
 
 //     }
 // }
-
-
-
