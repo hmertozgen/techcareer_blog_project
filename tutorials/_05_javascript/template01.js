@@ -604,8 +604,8 @@ let dizi = ["html5","css3","js"]
 ///////////////////
 //Dizi fonkisyonlarına devam edilecek
 //join() ==> dizideki her bir elemana eklemek için 
-// dizi.join("-logo")
-// console.log(dizi)
+//dizi.join("-logo")
+//console.log(dizi)
 //splice()
 
 
@@ -651,10 +651,34 @@ let totalfiveExcluded=()=>{
 totalfiveExcluded();
 
 
-//Random
-// let rnd=()=>{
-//     let number=Number(prompt("Lütfen bir sayı giriniz"));
-//     for (let i=1; i<=number; i++){
+//Örnek7:
+// Kullanıcıdan alınan sayıya göre random sayılar oluştursun
+// 0-) ilk ve son sayının toplamı ?
+// 1-) Toplamları
+// 2-) Ortalaması
+// 3-) Tek sayı toplamları
+// 4-) Kaç tane Tek sayı 
+// 5-) çift sayı toplamları
+// 6-) çift tane Tek sayı 
 
-//     }
-// }
+//Random
+let rndArray=()=>{
+    //değişkenleri(variable)
+    let rndNumber,firstEndSum=0,number,array=[];
+    number=Number(prompt("Lütfen bir sayı giriniz"));
+    //döngüde rastgele sayı oluşturmak
+    for (let i=0; i<number; i++){
+        rndNumber=Number(Math.round(Math.random()*9+1));
+        array[i]=rndNumber;
+    }
+    console.log(array)
+    firstEndSum=array[0]+array[array.length-1];
+    console.log(firstEndSum)
+}
+
+//sonarQube
+rndArray();
+
+///////////////////////////////////////////////////////
+//debug nedir ?
+//debug nasıl atılır ?
