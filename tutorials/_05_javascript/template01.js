@@ -518,9 +518,13 @@ let kelime = 'Html5 Css3 Js Css3 '
 
 ////////////////////////////////////////////////////////////////////////
 //Diziler
-let dizi = ['html', 'css', 'js', 'Javascript']
+let dizi = [2,3,5,69,-1]
 
 //push() ==> sona bir eleman eklemek
+//unshift() ==> başa bir eleman eklemek
+//pop() ==> sondan 1 eleman çıkar
+//shift() ==> baştan 1 eleman çıkar
+//Delete ==> istediğim indis numarasındaki dizi elemanını silmek
 
 // console.log(dizi)
 // console.log(dizi[8])
@@ -551,6 +555,7 @@ let dizi = ['html', 'css', 'js', 'Javascript']
 ///////
 //dizi fonksiyonları
 
+//+++++++
 //EKLEME
 //push() ==> sona bir eleman eklemek
 dizi.push('sona eklendi lifo')
@@ -564,6 +569,8 @@ dizi.unshift('Başa eklendi')
 //     console.log(temp)
 //   }
 
+
+//-------
 //ÇIKARMA
 //pop() ==> sondan 1 eleman çıkar
 dizi.pop()
@@ -573,9 +580,27 @@ dizi.pop()
 
 //shift() ==> baştan 1 eleman çıkar
 dizi.shift()
-for (temp of dizi) {
-  console.log(temp)
-}
+// for (temp of dizi) {
+//   console.log(temp)
+// }
+
+
+
+
+//Delete ==> istediğim indis numarasındaki dizi elemanını silmek
+console.log(dizi)
+// delete dizi[2];
+// console.log("+++++++++++++++++++")
+// for(temp of dizi ){
+// console.log(temp)
+// }
+
+//sort() ==> küçükten büyüğe doğru sıralama yapar
+console.log(dizi.sort())
+
+//reverse() ==> büyükten küçüğe doğru sıralama yapar
+console.log(dizi.reverse())
+
 
 //Random
 // let rnd=()=>{

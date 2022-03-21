@@ -34,8 +34,10 @@
 //S4-) 1-99 sayılar dahil 1<=<x<=99 bu sayılardan içerde kaç tane tek sayı kaç tane çift sayı vardır ?
 
 //S.O.L.I.D
-//Design pattern  
-/////////////////////////////////////////////////////
+//Design pattern 
+//UML Diyagram nedir ? 
+//Heap memory,Stack memory
+////////////////////////////////////////////////////////////////////////////////
 // Örnek: 1.dereceden 2 bilinmeyenli denklem
 // Kullanıcıdan aldığımız 2 değişkeni hesaplatarıalım?
 // y=3x+5k; x ve k kullanıcıdan alınan sayılara göre hesaplama yapılactır (Arrow function)
@@ -52,23 +54,28 @@
 
 //Örnek:5 Kullanıcının Girdiği Sayının Negatif mi, Pozitif mi Olduğunu Bulan function(anonymous)
 
-//Örnek:  1'den 10'a kadar sayıların toplamı ancak 5'e bölünebilen sayılar hariç
+//Örnek6:  1'den 10'a kadar sayıların toplamı ancak 5'e bölünebilen sayılar hariç
 
-//Örnek:
+//Örnek7:
 // Kullanıcıdan alınan sayıya göre
 // 1-)Toplamları
 // 2-)Tek sayı toplamları
 // 3-)çift sayı toplamları
 
-//Örnek :Kullanıcının Girdiği Sayının Faktöriyel hesaplama
+//Örnek8 :Kullanıcının Girdiği Sayının Faktöriyel hesaplama
 
+//Örnek9 Kullanıdan aldığımız kelimeyi tersine çeviren program
+//exam: bardak  ==> kadrab
 
-
-//kullanıcı tarafından başlangıç,bitiş sayıları ve bir döngüde devam etsin.
+//örnek kullanıcı tarafından başlangıç,bitiş sayıları ve bir döngüde devam etsin.
 // s1-)  başlangıç,bitiş sayıların toplamı
 // s2-)  başlangıç,bitiş çift  sayıların toplamı
 // s2-)  başlangıç,bitiş  kadar teksayılar  sayıların toplamı
 // s3-)  başlangıç,bitiş sayıların toplamı ancak 5'e bölünebilen sayılar hariç
+
+
+
+
 
 
 
