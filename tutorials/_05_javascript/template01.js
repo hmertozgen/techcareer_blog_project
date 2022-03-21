@@ -516,3 +516,44 @@ let kelime = 'Html5 Css3 Js Css3 '
 //arrow function ?
 //S.O.L.I.D
 
+////////////////////////////////////////////////////////////////////////
+//Diziler
+let dizi=["html","css","js","Javascript"];
+console.log(dizi);
+console.log(dizi[8]);
+console.log(dizi[dizi.length-1]);
+console.log("+++++++++++++++++++++++++++++++")
+
+//iterative for
+for (let i=0; i<dizi.length; i+=1){
+    console.log((i+1)+" "+dizi[i])
+}
+
+console.log("+++++++++++++++++++++++++++++++")
+console.log("for in");
+
+//for in 
+for( temp  in dizi   ){
+console.log(temp+" ==> "+dizi[temp])
+}
+
+console.log("+++++++++++++++++++++++++++++++")
+console.log("for of");
+
+//for of
+for( temp  of dizi   ){
+    console.log(temp)
+    }
+
+
+
+//Random
+// let rnd=()=>{
+//     let number=Number(prompt("Lütfen bir sayı giriniz"));
+//     for (let i=1; i<=number; i++){
+
+//     }
+// }
+
+
+
