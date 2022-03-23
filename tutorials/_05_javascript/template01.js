@@ -681,7 +681,13 @@ let kelime = "Html5 Css3 Js Css3 ";
 //debug nedir ?
 //debug nasıl atılır ?
 
-let sayi11 = 11;
-let sayi22 = 22;
-let sonuc = sayi11 + sayi22;
-console.log(sonuc);
+// let sayi11 = 11;
+// let sayi22 = 22;
+// let sonuc = sayi11 + sayi22;
+// console.log(sonuc);
+
+let showDate = () => {
+  let tarih = new Date();
+  console.log(tarih);
+};
+showDate();
