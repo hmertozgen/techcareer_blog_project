@@ -254,3 +254,21 @@
 // };
 
 // startToEndNumb();
+
+// const points = [40, 100, 1, 5, 25, 10];
+// let x = points.sort(function (a, b) {
+//   return a - b;
+// });
+
+// console.log(points);
+
+// let y = points.sort(function (a, b) {
+//   return b - a;
+// });
+
+// console.log(x);
+// console.log(y);
+
+const points = [40, 100, 1, 5, 25, 10];
+
+console.log(points.sort());
