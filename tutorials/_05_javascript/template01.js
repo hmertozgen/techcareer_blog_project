@@ -190,7 +190,7 @@ multiple line comment
 
 ///////////////////////////////////////////////////
 //String
-let kelime = 'Html5 Css3 Js Css3 '
+let kelime = "Html5 Css3 Js Css3 ";
 
 // kaç tane harf var ?
 // console.log(kelime.length)
@@ -518,7 +518,7 @@ let kelime = 'Html5 Css3 Js Css3 '
 
 ////////////////////////////////////////////////////////////////////////
 //Diziler
-let dizi = ["html5","css3","js"]
+// let dizi = ["html5", "css3", "js"];
 
 //dizi.push() ==> sona bir eleman eklemek
 //dizi.unshift() ==> başa bir eleman eklemek
@@ -571,7 +571,6 @@ let dizi = ["html5","css3","js"]
 //     console.log(temp)
 //   }
 
-
 //-------
 //ÇIKARMA
 //pop() ==> sondan 1 eleman çıkar
@@ -603,11 +602,10 @@ let dizi = ["html5","css3","js"]
 
 ///////////////////
 //Dizi fonkisyonlarına devam edilecek
-//join() ==> dizideki her bir elemana eklemek için 
+//join() ==> dizideki her bir elemana eklemek için
 //dizi.join("-logo")
 //console.log(dizi)
 //splice()
-
 
 //+++++++++++++++++++++++++++++++++++++++++++
 
@@ -615,41 +613,38 @@ let dizi = ["html5","css3","js"]
 // Kullanıcıdan aldığımız 2 değişkeni hesaplatarıalım?
 // y=3x+5k; x ve k kullanıcıdan alınan sayılara göre hesaplama yapılactır (Arrow function)
 
-let equationWithUnKnow=()=>{
-    let number1,number2,result;
-    number1=Number(prompt("1.sayı"));
-    number2=Number(prompt("2.sayı"));
-    result=3*number1+5*number2;
-    console.log(result)
-}
+// let equationWithUnKnow = () => {
+//   let number1, number2, result;
+//   number1 = Number(prompt("1.sayı"));
+//   number2 = Number(prompt("2.sayı"));
+//   result = 3 * number1 + 5 * number2;
+//   console.log(result);
+// };
 //equationWithUnKnow();
 
-
 //Örnek: 2 Dereceyi fahrenhaya çeviren function (Anonymous function)
-//Kullanıcıdan alınan dereceyi Fahrenhata çeviren function 
+//Kullanıcıdan alınan dereceyi Fahrenhata çeviren function
 //Formül: (dereceSayi * 9 / 5) + 32;
-let toFahrenhayt=function(){
-    let degree,result;
-    degree=Number(prompt("Lütfen dereceyi giriniz"));
-    result=(degree*9/5)+32;
-    console.log(result)
-}
+// let toFahrenhayt = function () {
+//   let degree, result;
+//   degree = Number(prompt("Lütfen dereceyi giriniz"));
+//   result = (degree * 9) / 5 + 32;
+//   console.log(result);
+// };
 // toFahrenhayt();
 
 //Örnek6:  1'den 10'a kadar sayıların toplamı ancak 5'e bölünebilen sayılar hariç
 // continue
-let totalfiveExcluded=()=>{
-    let sum=0;//başlangıç bir değer: sıfır etkisiz toplama
-    for (let i = 1; i <= 10; i=i+1) {
-        if(i%5===0)
-            continue;
-       sum+=i;
-    }
-    console.log("toplam: "+sum)
-}
+// let totalfiveExcluded = () => {
+//   let sum = 0; //başlangıç bir değer: sıfır etkisiz toplama
+//   for (let i = 1; i <= 10; i = i + 1) {
+//     if (i % 5 === 0) continue;
+//     sum += i;
+//   }
+//   console.log("toplam: " + sum);
+// };
 
-totalfiveExcluded();
-
+// totalfiveExcluded();
 
 //Örnek7:
 // Kullanıcıdan alınan sayıya göre random sayılar oluştursun
@@ -657,28 +652,36 @@ totalfiveExcluded();
 // 1-) Toplamları
 // 2-) Ortalaması
 // 3-) Tek sayı toplamları
-// 4-) Kaç tane Tek sayı 
+// 4-) Kaç tane Tek sayı
 // 5-) çift sayı toplamları
-// 6-) çift tane Tek sayı 
+// 6-) çift tane Tek sayı
 
 //Random
-let rndArray=()=>{
-    //değişkenleri(variable)
-    let rndNumber,firstEndSum=0,number,array=[];
-    number=Number(prompt("Lütfen bir sayı giriniz"));
-    //döngüde rastgele sayı oluşturmak
-    for (let i=0; i<number; i++){
-        rndNumber=Number(Math.round(Math.random()*9+1));
-        array[i]=rndNumber;
-    }
-    console.log(array)
-    firstEndSum=array[0]+array[array.length-1];
-    console.log(firstEndSum)
-}
+// let rndArray = () => {
+//   //değişkenleri(variable)
+//   let rndNumber,
+//     firstEndSum = 0,
+//     number,
+//     array = [];
+//   number = Number(prompt("Lütfen bir sayı giriniz"));
+//   //döngüde rastgele sayı oluşturmak
+//   for (let i = 0; i < number; i++) {
+//     rndNumber = Number(Math.round(Math.random() * 9 + 1));
+//     array[i] = rndNumber;
+//   }
+//   console.log(array);
+//   firstEndSum = array[0] + array[array.length - 1];
+//   console.log(firstEndSum);
+// };
 
-//sonarQube
-rndArray();
+// //sonarQube
+// rndArray();
 
 ///////////////////////////////////////////////////////
 //debug nedir ?
 //debug nasıl atılır ?
+
+let sayi11 = 11;
+let sayi22 = 22;
+let sonuc = sayi11 + sayi22;
+console.log(sonuc);
