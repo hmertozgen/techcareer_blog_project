@@ -269,6 +269,15 @@
 // console.log(x);
 // console.log(y);
 
-const points = [40, 100, 1, 5, 25, 10];
+// const points = [40, 100, 1, 5, 25, 10];
 
-console.log(points.sort());
+// console.log(points.sort());
+
+//Object CV
+//adi
+//soyadi
+//yas
+//diller[]
+//meslek{}
+//emeklilik=function(age){return 2022-age} ==> yaş<18 yaş>=150 (validation)
+//String toUppercase
