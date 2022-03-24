@@ -281,3 +281,44 @@
 //meslek{}
 //emeklilik=function(age){return 2022-age} ==> yaş<18 yaş>=150 (validation)
 //String toUppercase
+
+let CV = () => {
+  let firstName, lastName, age, howManyLanguages, retirement;
+  let languages = new Array();
+  let job = {};
+  let date = new Date();
+  let year = date.getFullYear();
+
+  firstName = prompt("Adınız Nedir?");
+  lastName = prompt("Soyadınız nedir?");
+  age = prompt("Kaç yaşındasınız?");
+  if (age < 18 || age >= 150) {
+    console.log("giriş hatalı.");
+    return;
+  }
+  howManyLanguages = Number(prompt("Kaç dil biliyorsunuz."));
+
+  for (let i = 0; i < howManyLanguages; i++) {
+    let x = prompt("Hangi dilleri biliyorsunuz?");
+
+    languages.push(x);
+  }
+  job.name = prompt("İşiniz nedir?");
+  job["experiment"] = prompt("kaç yıllık deneyiminiz var?");
+  job.corp = prompt("Hangi şirkette çalıştınız.");
+
+  retirement = (age) => {
+    console.log(`Emekliliğe kalan yıl ${65 - age}`);
+  };
+  let resume = {
+    firstName: firstName,
+    lastName: lastName,
+    languages: languages,
+    job: job,
+    retirement: retirement,
+  };
+
+  console.log(resume);
+};
+
+CV();
